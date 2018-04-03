@@ -8,28 +8,34 @@
 module.exports = {
   attributes: {
     address: {
-      type: 'string',
+      type: "string",
       required: true
     },
     city: {
-      type: 'string',
+      type: "string",
       required: true
     },
     state: {
-      type: 'string',
+      type: "string",
       required: true
     },
     zip: {
-      type: 'integer',
+      type: "integer",
       required: true
     },
     lat: {
-      type: 'float',
+      type: "float",
       required: true
     },
     lon: {
-      type: 'float',
+      type: "float",
       required: true
+    },
+    libraryFd: {
+      type: "string"
+    },
+    thumbFd: {
+      type: "string"
     }
   }
-}
+};
